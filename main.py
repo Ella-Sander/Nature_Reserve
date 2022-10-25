@@ -1,7 +1,7 @@
 import webbrowser
 import os
 import pandas as pd
-import foliu
+import folium
 
 location = r"C:\Users\jbt\Downloads\Nature reserve (2).csv"
 locations = pd.read_csv(location)
