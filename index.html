@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_9ca57f7bf175b8aa61c468e8e7e8e218 {
+                #map_6ac3b58dd5db1d6fc6ca21aef277e312 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,13 +35,13 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_9ca57f7bf175b8aa61c468e8e7e8e218" ></div>
+            <div class="folium-map" id="map_6ac3b58dd5db1d6fc6ca21aef277e312" ></div>
         
 </body>
 <script>    
     
-            var map_9ca57f7bf175b8aa61c468e8e7e8e218 = L.map(
-                "map_9ca57f7bf175b8aa61c468e8e7e8e218",
+            var map_6ac3b58dd5db1d6fc6ca21aef277e312 = L.map(
+                "map_6ac3b58dd5db1d6fc6ca21aef277e312",
                 {
                     center: [31.986398239, 35.206801094999996],
                     crs: L.CRS.EPSG3857,
@@ -50,285 +50,365 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_9ca57f7bf175b8aa61c468e8e7e8e218);
+            L.control.scale().addTo(map_6ac3b58dd5db1d6fc6ca21aef277e312);
 
             
 
         
     
-            var tile_layer_a52805b93bc8d617de44fb91d5b2f2d3 = L.tileLayer(
+            var tile_layer_bacaf4a4d968930eea7db89726f00daa = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_9ca57f7bf175b8aa61c468e8e7e8e218);
+            ).addTo(map_6ac3b58dd5db1d6fc6ca21aef277e312);
         
     
-            var marker_cc77988a5b70adf7f56b039cef22c872 = L.marker(
+            var marker_c8049b873e16dbffaf5421f8c259848f = L.marker(
                 [32.20142669, 35.27294706],
                 {}
-            ).addTo(map_9ca57f7bf175b8aa61c468e8e7e8e218);
+            ).addTo(map_6ac3b58dd5db1d6fc6ca21aef277e312);
         
     
-            var icon_08072dcbfa769c8b83fad6f8c4ccb9ce = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "clean_icon.png", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            var icon_fb60f5b0fd912cf1190afd91afc50b10 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "warning", "iconColor": "black", "markerColor": "red", "prefix": "fa"}
             );
-            marker_cc77988a5b70adf7f56b039cef22c872.setIcon(icon_08072dcbfa769c8b83fad6f8c4ccb9ce);
+            marker_c8049b873e16dbffaf5421f8c259848f.setIcon(icon_fb60f5b0fd912cf1190afd91afc50b10);
         
     
-        var popup_0a260b23e1967f60416a92856cfc0077 = L.popup({"maxWidth": "100%"});
+        var popup_063605681e78bfde38031967b87e05c6 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_eaf0c37c036c9f45d7feeea171fe221f = $(`<div id="html_eaf0c37c036c9f45d7feeea171fe221f" style="width: 100.0%; height: 100.0%;">Mount Gerizimhttps://www.parks.org.il/reserve-park/%D7%94%D7%A8-%D7%92%D7%A8%D7%99%D7%96%D7%99%D7%9D/</div>`)[0];
-                popup_0a260b23e1967f60416a92856cfc0077.setContent(html_eaf0c37c036c9f45d7feeea171fe221f);
+                var html_8d3b92dd961fc94003f1c2821673d866 = $(`<div id="html_8d3b92dd961fc94003f1c2821673d866" style="width: 100.0%; height: 100.0%;"><a href="https://www.parks.org.il/reserve-park/%D7%94%D7%A8-%D7%92%D7%A8%D7%99%D7%96%D7%99%D7%9D/">Mount Gerizim</a></div>`)[0];
+                popup_063605681e78bfde38031967b87e05c6.setContent(html_8d3b92dd961fc94003f1c2821673d866);
             
         
 
-        marker_cc77988a5b70adf7f56b039cef22c872.bindPopup(popup_0a260b23e1967f60416a92856cfc0077)
+        marker_c8049b873e16dbffaf5421f8c259848f.bindPopup(popup_063605681e78bfde38031967b87e05c6)
         ;
 
         
     
     
-            var marker_34434d909e97a0d5d293d8fbacbb68cd = L.marker(
+            marker_c8049b873e16dbffaf5421f8c259848f.bindTooltip(
+                `<div>
+                     Mount Gerizim
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ec1e73f3ee677fbac4c3758d89cb3e09 = L.marker(
                 [31.24495425, 34.84075608],
                 {}
-            ).addTo(map_9ca57f7bf175b8aa61c468e8e7e8e218);
+            ).addTo(map_6ac3b58dd5db1d6fc6ca21aef277e312);
         
     
-            var icon_31197efd9744c9fb3f3aea15defbdfbd = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "clean_icon.png", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            var icon_3783333d9aa7dfa5391450e7e50c56b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "warning", "iconColor": "black", "markerColor": "red", "prefix": "fa"}
             );
-            marker_34434d909e97a0d5d293d8fbacbb68cd.setIcon(icon_31197efd9744c9fb3f3aea15defbdfbd);
+            marker_ec1e73f3ee677fbac4c3758d89cb3e09.setIcon(icon_3783333d9aa7dfa5391450e7e50c56b7);
         
     
-        var popup_bf9a9a297b6d76b0cc3c035d9a373ee6 = L.popup({"maxWidth": "100%"});
+        var popup_3f65e25a63111b7716b8ede10483e002 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_816d67be0ccff8fa90f09844c64d9e1a = $(`<div id="html_816d67be0ccff8fa90f09844c64d9e1a" style="width: 100.0%; height: 100.0%;">Tel Be'er Shevahttps://www.parks.org.il/reserve-park/%D7%92%D7%9F-%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%AA%D7%9C-%D7%91%D7%90%D7%A8-%D7%A9%D7%91%D7%A2/</div>`)[0];
-                popup_bf9a9a297b6d76b0cc3c035d9a373ee6.setContent(html_816d67be0ccff8fa90f09844c64d9e1a);
+                var html_23edec08810b52c248b3c261615627c4 = $(`<div id="html_23edec08810b52c248b3c261615627c4" style="width: 100.0%; height: 100.0%;"><a href="https://www.parks.org.il/reserve-park/%D7%92%D7%9F-%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%AA%D7%9C-%D7%91%D7%90%D7%A8-%D7%A9%D7%91%D7%A2/">Tel Be'er Sheva</a></div>`)[0];
+                popup_3f65e25a63111b7716b8ede10483e002.setContent(html_23edec08810b52c248b3c261615627c4);
             
         
 
-        marker_34434d909e97a0d5d293d8fbacbb68cd.bindPopup(popup_bf9a9a297b6d76b0cc3c035d9a373ee6)
+        marker_ec1e73f3ee677fbac4c3758d89cb3e09.bindPopup(popup_3f65e25a63111b7716b8ede10483e002)
         ;
 
         
     
     
-            var marker_92e28b551c86f60045c884d9ae12eea5 = L.marker(
+            marker_ec1e73f3ee677fbac4c3758d89cb3e09.bindTooltip(
+                `<div>
+                     Tel Be'er Sheva
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1fd5b684e719ff5cdccea4cddc7a42a7 = L.marker(
                 [31.66256832, 34.54630799],
                 {}
-            ).addTo(map_9ca57f7bf175b8aa61c468e8e7e8e218);
+            ).addTo(map_6ac3b58dd5db1d6fc6ca21aef277e312);
         
     
-            var icon_6526e410dd82bce1e9908e883b2c3b6a = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "clean_icon.png", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            var icon_69408afafba4cd37d499ac5ee8646755 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
             );
-            marker_92e28b551c86f60045c884d9ae12eea5.setIcon(icon_6526e410dd82bce1e9908e883b2c3b6a);
+            marker_1fd5b684e719ff5cdccea4cddc7a42a7.setIcon(icon_69408afafba4cd37d499ac5ee8646755);
         
     
-        var popup_c96cc683e7d968de3c7ed0ef3daf7308 = L.popup({"maxWidth": "100%"});
+        var popup_41c20f1bc1b6d3237e5945fe681c7d0a = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_97d1b29bd0538e38e7e5d24614c2599c = $(`<div id="html_97d1b29bd0538e38e7e5d24614c2599c" style="width: 100.0%; height: 100.0%;">Ashkelon National Parkhttps://www.parks.org.il/reserve-park/%D7%92%D7%9F-%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%90%D7%A9%D7%A7%D7%9C%D7%95%D7%9F/</div>`)[0];
-                popup_c96cc683e7d968de3c7ed0ef3daf7308.setContent(html_97d1b29bd0538e38e7e5d24614c2599c);
+                var html_28c3b4f7984ac3c5c7737aec87bcc59e = $(`<div id="html_28c3b4f7984ac3c5c7737aec87bcc59e" style="width: 100.0%; height: 100.0%;"><a href="https://www.parks.org.il/reserve-park/%D7%92%D7%9F-%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%90%D7%A9%D7%A7%D7%9C%D7%95%D7%9F/">Ashkelon National Park</a></div>`)[0];
+                popup_41c20f1bc1b6d3237e5945fe681c7d0a.setContent(html_28c3b4f7984ac3c5c7737aec87bcc59e);
             
         
 
-        marker_92e28b551c86f60045c884d9ae12eea5.bindPopup(popup_c96cc683e7d968de3c7ed0ef3daf7308)
+        marker_1fd5b684e719ff5cdccea4cddc7a42a7.bindPopup(popup_41c20f1bc1b6d3237e5945fe681c7d0a)
         ;
 
         
     
     
-            var marker_fb40f03de0eace82108fcb94969fa159 = L.marker(
+            marker_1fd5b684e719ff5cdccea4cddc7a42a7.bindTooltip(
+                `<div>
+                     Ashkelon National Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b416f19958d4391bca5a8aa618ae858b = L.marker(
                 [31.79738755, 35.14216638],
                 {}
-            ).addTo(map_9ca57f7bf175b8aa61c468e8e7e8e218);
+            ).addTo(map_6ac3b58dd5db1d6fc6ca21aef277e312);
         
     
-            var icon_f888ed546c1d301eadf096a60df7bb89 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "clean_icon.png", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            var icon_0332b363fe53d4ec649d58fe0728f962 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
             );
-            marker_fb40f03de0eace82108fcb94969fa159.setIcon(icon_f888ed546c1d301eadf096a60df7bb89);
+            marker_b416f19958d4391bca5a8aa618ae858b.setIcon(icon_0332b363fe53d4ec649d58fe0728f962);
         
     
-        var popup_430ab39941448dbecfcf64a221abe69b = L.popup({"maxWidth": "100%"});
+        var popup_47ce27653b817b1e3aef4c32060c2194 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_57962ab116ac0c000d32157769acf295 = $(`<div id="html_57962ab116ac0c000d32157769acf295" style="width: 100.0%; height: 100.0%;">Castel National Parkhttps://www.parks.org.il/reserve-park/%D7%90%D7%AA%D7%A8-%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%94%D7%A7%D7%A1%D7%98%D7%9C/</div>`)[0];
-                popup_430ab39941448dbecfcf64a221abe69b.setContent(html_57962ab116ac0c000d32157769acf295);
+                var html_fa9668a03732f81366a15e621ea10c29 = $(`<div id="html_fa9668a03732f81366a15e621ea10c29" style="width: 100.0%; height: 100.0%;"><a href="https://www.parks.org.il/reserve-park/%D7%90%D7%AA%D7%A8-%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%94%D7%A7%D7%A1%D7%98%D7%9C/">Castel National Park</a></div>`)[0];
+                popup_47ce27653b817b1e3aef4c32060c2194.setContent(html_fa9668a03732f81366a15e621ea10c29);
             
         
 
-        marker_fb40f03de0eace82108fcb94969fa159.bindPopup(popup_430ab39941448dbecfcf64a221abe69b)
+        marker_b416f19958d4391bca5a8aa618ae858b.bindPopup(popup_47ce27653b817b1e3aef4c32060c2194)
         ;
 
         
     
     
-            var marker_1db1bcf86c65ff3013b3b763f3a7bb7d = L.marker(
+            marker_b416f19958d4391bca5a8aa618ae858b.bindTooltip(
+                `<div>
+                     Castel National Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d69dfbf6eb234c58fb15888d4b86bad1 = L.marker(
                 [32.82457821, 35.49838955],
                 {}
-            ).addTo(map_9ca57f7bf175b8aa61c468e8e7e8e218);
+            ).addTo(map_6ac3b58dd5db1d6fc6ca21aef277e312);
         
     
-            var icon_6d859c70ab0ba5d2f22400b95d5582b4 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "clean_icon.png", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            var icon_7406816138f8e68eabc7b34a03dd5cf1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "warning", "iconColor": "black", "markerColor": "red", "prefix": "fa"}
             );
-            marker_1db1bcf86c65ff3013b3b763f3a7bb7d.setIcon(icon_6d859c70ab0ba5d2f22400b95d5582b4);
+            marker_d69dfbf6eb234c58fb15888d4b86bad1.setIcon(icon_7406816138f8e68eabc7b34a03dd5cf1);
         
     
-        var popup_244d0b3291b2afe9c7dd3c36df99ffdc = L.popup({"maxWidth": "100%"});
+        var popup_09bc6f1b328cac3f4dea0e4c3d9dd7a6 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_004e3e84ea80d863715c624f455c212a = $(`<div id="html_004e3e84ea80d863715c624f455c212a" style="width: 100.0%; height: 100.0%;">Arbel National park and Nature Reservehttps://www.parks.org.il/reserve-park/arbel/</div>`)[0];
-                popup_244d0b3291b2afe9c7dd3c36df99ffdc.setContent(html_004e3e84ea80d863715c624f455c212a);
+                var html_9cd1e5392474b16d089ffd9dd59e3286 = $(`<div id="html_9cd1e5392474b16d089ffd9dd59e3286" style="width: 100.0%; height: 100.0%;"><a href="https://www.parks.org.il/reserve-park/arbel/">Arbel National park and Nature Reserve</a></div>`)[0];
+                popup_09bc6f1b328cac3f4dea0e4c3d9dd7a6.setContent(html_9cd1e5392474b16d089ffd9dd59e3286);
             
         
 
-        marker_1db1bcf86c65ff3013b3b763f3a7bb7d.bindPopup(popup_244d0b3291b2afe9c7dd3c36df99ffdc)
+        marker_d69dfbf6eb234c58fb15888d4b86bad1.bindPopup(popup_09bc6f1b328cac3f4dea0e4c3d9dd7a6)
         ;
 
         
     
     
-            var marker_0b5aa9562843f7253ea74da55dee9db5 = L.marker(
+            marker_d69dfbf6eb234c58fb15888d4b86bad1.bindTooltip(
+                `<div>
+                     Arbel National park and Nature Reserve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca84568fcb1fc90388f739324814819c = L.marker(
                 [29.84620252, 35.02945934],
                 {}
-            ).addTo(map_9ca57f7bf175b8aa61c468e8e7e8e218);
+            ).addTo(map_6ac3b58dd5db1d6fc6ca21aef277e312);
         
     
-            var icon_6568a6a113cda8a1ed9684e057412ecc = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "clean_icon.png", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            var icon_54f0cbe500db4c9523a8af408ecb82cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "warning", "iconColor": "black", "markerColor": "red", "prefix": "fa"}
             );
-            marker_0b5aa9562843f7253ea74da55dee9db5.setIcon(icon_6568a6a113cda8a1ed9684e057412ecc);
+            marker_ca84568fcb1fc90388f739324814819c.setIcon(icon_54f0cbe500db4c9523a8af408ecb82cb);
         
     
-        var popup_cbf2c2ea3f422f1378446f93ebe336fc = L.popup({"maxWidth": "100%"});
+        var popup_0663e60564594070771d594a2c7f3087 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_ef1c10b4ed66a43dc995ad717c9fb563 = $(`<div id="html_ef1c10b4ed66a43dc995ad717c9fb563" style="width: 100.0%; height: 100.0%;">Hay Bar Yotvata Nature Reservehttps://www.parks.org.il/reserve-park/%D7%A9%D7%9E%D7%95%D7%A8%D7%AA-%D7%98%D7%91%D7%A2-%D7%97%D7%99-%D7%91%D7%A8-%D7%99%D7%95%D7%98%D7%91%D7%AA%D7%94-2/</div>`)[0];
-                popup_cbf2c2ea3f422f1378446f93ebe336fc.setContent(html_ef1c10b4ed66a43dc995ad717c9fb563);
+                var html_bd17bc3cad4cb7844978d7288e44d99c = $(`<div id="html_bd17bc3cad4cb7844978d7288e44d99c" style="width: 100.0%; height: 100.0%;"><a href="https://www.parks.org.il/reserve-park/%D7%A9%D7%9E%D7%95%D7%A8%D7%AA-%D7%98%D7%91%D7%A2-%D7%97%D7%99-%D7%91%D7%A8-%D7%99%D7%95%D7%98%D7%91%D7%AA%D7%94-2/">Hay Bar Yotvata Nature Reserve</a></div>`)[0];
+                popup_0663e60564594070771d594a2c7f3087.setContent(html_bd17bc3cad4cb7844978d7288e44d99c);
             
         
 
-        marker_0b5aa9562843f7253ea74da55dee9db5.bindPopup(popup_cbf2c2ea3f422f1378446f93ebe336fc)
+        marker_ca84568fcb1fc90388f739324814819c.bindPopup(popup_0663e60564594070771d594a2c7f3087)
         ;
 
         
     
     
-            var marker_bee961a68bf5f18f7d176f411386b645 = L.marker(
+            marker_ca84568fcb1fc90388f739324814819c.bindTooltip(
+                `<div>
+                     Hay Bar Yotvata Nature Reserve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eece91dffe3da770f8532f7bec7b4694 = L.marker(
                 [32.90571603, 35.74847509],
                 {}
-            ).addTo(map_9ca57f7bf175b8aa61c468e8e7e8e218);
+            ).addTo(map_6ac3b58dd5db1d6fc6ca21aef277e312);
         
     
-            var icon_226c7d7936acd0b74eb761c5d37fc8ba = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "clean_icon.png", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            var icon_8c69b28bc0cb748fa84c14cb904fcc4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "warning", "iconColor": "black", "markerColor": "red", "prefix": "fa"}
             );
-            marker_bee961a68bf5f18f7d176f411386b645.setIcon(icon_226c7d7936acd0b74eb761c5d37fc8ba);
+            marker_eece91dffe3da770f8532f7bec7b4694.setIcon(icon_8c69b28bc0cb748fa84c14cb904fcc4c);
         
     
-        var popup_42f623898ab66b1cc2b0a2e16a180832 = L.popup({"maxWidth": "100%"});
+        var popup_6e5e4ec4029b03bbdce5dcfcd4b2959e = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_61d1eadd25b4e70223b49464902395cd = $(`<div id="html_61d1eadd25b4e70223b49464902395cd" style="width: 100.0%; height: 100.0%;">Gamla Nature Reservehttps://www.parks.org.il/reserve-park/%D7%A9%D7%9E%D7%95%D7%A8%D7%AA-%D7%98%D7%91%D7%A2-%D7%92%D7%9E%D7%9C%D7%90/</div>`)[0];
-                popup_42f623898ab66b1cc2b0a2e16a180832.setContent(html_61d1eadd25b4e70223b49464902395cd);
+                var html_43736956447aff8e6aab50d160b8af07 = $(`<div id="html_43736956447aff8e6aab50d160b8af07" style="width: 100.0%; height: 100.0%;"><a href="https://www.parks.org.il/reserve-park/%D7%A9%D7%9E%D7%95%D7%A8%D7%AA-%D7%98%D7%91%D7%A2-%D7%92%D7%9E%D7%9C%D7%90/">Gamla Nature Reserve</a></div>`)[0];
+                popup_6e5e4ec4029b03bbdce5dcfcd4b2959e.setContent(html_43736956447aff8e6aab50d160b8af07);
             
         
 
-        marker_bee961a68bf5f18f7d176f411386b645.bindPopup(popup_42f623898ab66b1cc2b0a2e16a180832)
+        marker_eece91dffe3da770f8532f7bec7b4694.bindPopup(popup_6e5e4ec4029b03bbdce5dcfcd4b2959e)
         ;
 
         
     
     
-            var marker_71e5c357e1cbaf764403ba6e99f19383 = L.marker(
+            marker_eece91dffe3da770f8532f7bec7b4694.bindTooltip(
+                `<div>
+                     Gamla Nature Reserve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_858bc69da923f7981ce7baaa3873b972 = L.marker(
                 [31.66573626, 35.24171164],
                 {}
-            ).addTo(map_9ca57f7bf175b8aa61c468e8e7e8e218);
+            ).addTo(map_6ac3b58dd5db1d6fc6ca21aef277e312);
         
     
-            var icon_64a72d311a9ef9273929c001a1fca07c = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "clean_icon.png", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            var icon_81952c9ecf8d3c15682d90da51ce4489 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "warning", "iconColor": "black", "markerColor": "red", "prefix": "fa"}
             );
-            marker_71e5c357e1cbaf764403ba6e99f19383.setIcon(icon_64a72d311a9ef9273929c001a1fca07c);
+            marker_858bc69da923f7981ce7baaa3873b972.setIcon(icon_81952c9ecf8d3c15682d90da51ce4489);
         
     
-        var popup_9cdf3e7fd7de984994aeceb16c246d7d = L.popup({"maxWidth": "100%"});
+        var popup_d5361d5121218d2911f6c6c0b71b2a72 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_3f5e36ed2efc607f0a05f6d5ccc705ed = $(`<div id="html_3f5e36ed2efc607f0a05f6d5ccc705ed" style="width: 100.0%; height: 100.0%;">Herodium Parkhttps://www.parks.org.il/reserve-park/%D7%A4%D7%90%D7%A8%D7%A7-%D7%92%D7%9F-%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%94%D7%A8%D7%95%D7%93%D7%99%D7%95%D7%9F/</div>`)[0];
-                popup_9cdf3e7fd7de984994aeceb16c246d7d.setContent(html_3f5e36ed2efc607f0a05f6d5ccc705ed);
+                var html_4ad73fdb9fad300dc38aff3ceea2003e = $(`<div id="html_4ad73fdb9fad300dc38aff3ceea2003e" style="width: 100.0%; height: 100.0%;"><a href="https://www.parks.org.il/reserve-park/%D7%A4%D7%90%D7%A8%D7%A7-%D7%92%D7%9F-%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%94%D7%A8%D7%95%D7%93%D7%99%D7%95%D7%9F/">Herodium Park</a></div>`)[0];
+                popup_d5361d5121218d2911f6c6c0b71b2a72.setContent(html_4ad73fdb9fad300dc38aff3ceea2003e);
             
         
 
-        marker_71e5c357e1cbaf764403ba6e99f19383.bindPopup(popup_9cdf3e7fd7de984994aeceb16c246d7d)
+        marker_858bc69da923f7981ce7baaa3873b972.bindPopup(popup_d5361d5121218d2911f6c6c0b71b2a72)
         ;
 
         
     
     
-            var marker_7b2939747c9513c9bbc0b1d9e8278622 = L.marker(
+            marker_858bc69da923f7981ce7baaa3873b972.bindTooltip(
+                `<div>
+                     Herodium Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_053ce8730f4d8c2c389464cac2b7a6d2 = L.marker(
                 [32.69796737, 35.17962545],
                 {}
-            ).addTo(map_9ca57f7bf175b8aa61c468e8e7e8e218);
+            ).addTo(map_6ac3b58dd5db1d6fc6ca21aef277e312);
         
     
-            var icon_4f7b6220bd4822ddf5b985f31634d893 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "clean_icon.png", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            var icon_a5be19d62f71e14ce52b9ec7d1566b2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "warning", "iconColor": "black", "markerColor": "red", "prefix": "fa"}
             );
-            marker_7b2939747c9513c9bbc0b1d9e8278622.setIcon(icon_4f7b6220bd4822ddf5b985f31634d893);
+            marker_053ce8730f4d8c2c389464cac2b7a6d2.setIcon(icon_a5be19d62f71e14ce52b9ec7d1566b2a);
         
     
-        var popup_f8c640385ccc99a6966499e37b60148e = L.popup({"maxWidth": "100%"});
+        var popup_b178023c3005994d207270c19dedd8a2 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_ee7d591f372d7b19fa79eb77bcc75a40 = $(`<div id="html_ee7d591f372d7b19fa79eb77bcc75a40" style="width: 100.0%; height: 100.0%;">Beit She'arimhttps://www.parks.org.il/reserve-park/%D7%92%D7%9F-%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%91%D7%99%D7%AA-%D7%A9%D7%A2%D7%A8%D7%99%D7%9D/</div>`)[0];
-                popup_f8c640385ccc99a6966499e37b60148e.setContent(html_ee7d591f372d7b19fa79eb77bcc75a40);
+                var html_17ad607900b0cc267938a29c1b48a46b = $(`<div id="html_17ad607900b0cc267938a29c1b48a46b" style="width: 100.0%; height: 100.0%;"><a href="https://www.parks.org.il/reserve-park/%D7%92%D7%9F-%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%91%D7%99%D7%AA-%D7%A9%D7%A2%D7%A8%D7%99%D7%9D/">Beit She'arim</a></div>`)[0];
+                popup_b178023c3005994d207270c19dedd8a2.setContent(html_17ad607900b0cc267938a29c1b48a46b);
             
         
 
-        marker_7b2939747c9513c9bbc0b1d9e8278622.bindPopup(popup_f8c640385ccc99a6966499e37b60148e)
+        marker_053ce8730f4d8c2c389464cac2b7a6d2.bindPopup(popup_b178023c3005994d207270c19dedd8a2)
         ;
 
         
     
     
-            var marker_d3affc71baa7e4023cc4a5b7125b34b0 = L.marker(
+            marker_053ce8730f4d8c2c389464cac2b7a6d2.bindTooltip(
+                `<div>
+                     Beit She'arim
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1484f994d71204508804acf1d08977ab = L.marker(
                 [33.01744519, 35.56817237],
                 {}
-            ).addTo(map_9ca57f7bf175b8aa61c468e8e7e8e218);
+            ).addTo(map_6ac3b58dd5db1d6fc6ca21aef277e312);
         
     
-            var icon_987235d45bec6b78ea037692193a4627 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "clean_icon.png", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            var icon_fab531df81415f4543157bdeb08d7f4b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "warning", "iconColor": "black", "markerColor": "red", "prefix": "fa"}
             );
-            marker_d3affc71baa7e4023cc4a5b7125b34b0.setIcon(icon_987235d45bec6b78ea037692193a4627);
+            marker_1484f994d71204508804acf1d08977ab.setIcon(icon_fab531df81415f4543157bdeb08d7f4b);
         
     
-        var popup_1cb373202d1f03d62fdbb944a45ee0b3 = L.popup({"maxWidth": "100%"});
+        var popup_1bbfcae25ea533abc3a55f0b6b7d1e05 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_822f7913b1be6c4660c37822cfadf8d5 = $(`<div id="html_822f7913b1be6c4660c37822cfadf8d5" style="width: 100.0%; height: 100.0%;">Tel Hazorhttps://www.parks.org.il/reserve-park/%D7%92%D7%9F-%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%AA%D7%9C-%D7%97%D7%A6%D7%95%D7%A8/</div>`)[0];
-                popup_1cb373202d1f03d62fdbb944a45ee0b3.setContent(html_822f7913b1be6c4660c37822cfadf8d5);
+                var html_023a2babfe7bdd6adb2190371b211f48 = $(`<div id="html_023a2babfe7bdd6adb2190371b211f48" style="width: 100.0%; height: 100.0%;"><a href="https://www.parks.org.il/reserve-park/%D7%92%D7%9F-%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%AA%D7%9C-%D7%97%D7%A6%D7%95%D7%A8/">Tel Hazor</a></div>`)[0];
+                popup_1bbfcae25ea533abc3a55f0b6b7d1e05.setContent(html_023a2babfe7bdd6adb2190371b211f48);
             
         
 
-        marker_d3affc71baa7e4023cc4a5b7125b34b0.bindPopup(popup_1cb373202d1f03d62fdbb944a45ee0b3)
+        marker_1484f994d71204508804acf1d08977ab.bindPopup(popup_1bbfcae25ea533abc3a55f0b6b7d1e05)
         ;
 
         
     
+    
+            marker_1484f994d71204508804acf1d08977ab.bindTooltip(
+                `<div>
+                     Tel Hazor
+                 </div>`,
+                {"sticky": true}
+            );
+        
 </script>
