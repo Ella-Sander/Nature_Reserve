@@ -24,7 +24,3 @@ map.save("index.html")
 
 filename = 'file:///' + os.getcwd() + '/' + 'index.html'
 open_new_tab(filename)
-
-
-
-print("hello")
