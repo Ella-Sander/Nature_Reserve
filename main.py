@@ -27,7 +27,4 @@ open_new_tab(filename)
 
 
 
-
-
-
-print("hi")
+print("hello")
