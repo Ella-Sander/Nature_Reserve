@@ -1,4 +1,4 @@
-import webbrowser
+from webbrowser import open_new_tab
 import os
 import pandas as pd
 import folium
@@ -23,4 +23,11 @@ for index, location_info in locations.iterrows():
 map.save("index.html")
 
 filename = 'file:///' + os.getcwd() + '/' + 'index.html'
-webbrowser.open_new_tab(filename)
+open_new_tab(filename)
+
+
+
+
+
+
+print("hi")
