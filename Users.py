@@ -1,4 +1,5 @@
 import csv
+import sign_in
 
 header = ['Username', 'Password', 'Points']
 data = []
@@ -15,7 +16,8 @@ def user_name_taken(username):
 
 
 # if the username is not taken, add a new user to the data list
-def add_new_user(username, password, points):
+def add_new_user(username, password):
+    points = 0
     data.append([username, password, points])
     # return username
 
@@ -58,17 +60,16 @@ def winner(users_list):
     return users_sort_by_points_list
 
 
-# users_list = []
-# run = True
-# while run:
-#
-#     username = input("name")
-#     password = input("password")
-#     point = input("point")
-#     if not user_name_taken(username):
-#         add_new_user(username, password, point)
-#         update_users_csv()
-#     if username == "done":
-#         for i in range(len(data)):
-#             users_list.append(data[i][0])
-#         print(winner(users_list))
+users_list = []
+run = True
+while run:
+    # username, password, point = sign_in.log_in()
+    username = input("name")
+    password = input("password")
+    if not user_name_taken(username):
+        add_new_user(username, password)
+        update_users_csv()
+    # if username == "done":
+    #     for i in range(len(data)):
+    #         users_list.append(data[i][0])
+    #     print(winner(users_list))
