@@ -7,7 +7,7 @@ clean_place = ''
 
 pygame.init()
 
-SCREEN = pygame.display.set_mode((1280, 720))
+SCREEN = pygame.display.set_mode(consts.WINDOW_SIZE)
 pygame.display.set_caption("Menu")
 
 BG = pygame.image.load("assets/nature_backround.jpg")
@@ -24,13 +24,13 @@ def open_map():
 def report():
     clock = pygame.time.Clock()
     list1 = drop_m.OptionBox(
-        550, 320, 160, 40, (150, 150, 150), (100, 200, 255), pygame.font.SysFont(None, 30),
+        550, 320, 160, 40, (173,255,47), (50,205,50), pygame.font.SysFont(None, 30),
         ["option 1", "2nd option", "another option"])
     while True:
         clock.tick(60)
         OPTIONS_MOUSE_POS = pygame.mouse.get_pos()
 
-        SCREEN.fill("white")
+        SCREEN.fill(consts.COLOR_WHITE)
 
         OPTIONS_TEXT = get_font(45).render("report cleaning", True, "Black")
         OPTIONS_RECT = OPTIONS_TEXT.get_rect(center=(640, 260))
