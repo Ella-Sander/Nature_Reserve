@@ -1,11 +1,11 @@
-Name,Zip_Code_X,Zip_Code_Y,Link,Report,Status,Last Date
-Mount Gerizim,32.20142669,35.27294706,https://www.parks.org.il/reserve-park/%D7%94%D7%A8-%D7%92%D7%A8%D7%99%D7%96%D7%99%D7%9D/,0,FALSE,01/01/2022
-Tel Be'er Sheva,31.24495425,34.84075608,https://www.parks.org.il/reserve-park/%D7%92%D7%9F-%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%AA%D7%9C-%D7%91%D7%90%D7%A8-%D7%A9%D7%91%D7%A2/,0,FALSE,02/01/2022
-Ashkelon National Park,31.66256832,34.54630799,https://www.parks.org.il/reserve-park/%D7%92%D7%9F-%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%90%D7%A9%D7%A7%D7%9C%D7%95%D7%9F/,0,TRUE,03/01/2022
-Castel National Park,31.79738755,35.14216638,https://www.parks.org.il/reserve-park/%D7%90%D7%AA%D7%A8-%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%94%D7%A7%D7%A1%D7%98%D7%9C/,0,TRUE,04/01/2022
-Arbel National park and Nature Reserve,32.82457821,35.49838955,https://www.parks.org.il/reserve-park/arbel/,0,FALSE,05/01/2022
-Hay Bar Yotvata Nature Reserve,29.84620252,35.02945934,https://www.parks.org.il/reserve-park/%D7%A9%D7%9E%D7%95%D7%A8%D7%AA-%D7%98%D7%91%D7%A2-%D7%97%D7%99-%D7%91%D7%A8-%D7%99%D7%95%D7%98%D7%91%D7%AA%D7%94-2/,0,FALSE,06/01/2022
-Gamla Nature Reserve,32.90571603,35.74847509,https://www.parks.org.il/reserve-park/%D7%A9%D7%9E%D7%95%D7%A8%D7%AA-%D7%98%D7%91%D7%A2-%D7%92%D7%9E%D7%9C%D7%90/,0,FALSE,07/01/2022
-Herodium Park,31.66573626,35.24171164,https://www.parks.org.il/reserve-park/%D7%A4%D7%90%D7%A8%D7%A7-%D7%92%D7%9F-%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%94%D7%A8%D7%95%D7%93%D7%99%D7%95%D7%9F/,0,FALSE,08/01/2022
-Beit She'arim,32.69796737,35.17962545,https://www.parks.org.il/reserve-park/%D7%92%D7%9F-%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%91%D7%99%D7%AA-%D7%A9%D7%A2%D7%A8%D7%99%D7%9D/,0,FALSE,09/01/2022
-Tel Hazor,33.01744519,35.56817237,https://www.parks.org.il/reserve-park/%D7%92%D7%9F-%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%AA%D7%9C-%D7%97%D7%A6%D7%95%D7%A8/,0,FALSE,10/01/2022
+,Name,Zip_Code_X,Zip_Code_Y,Link,Reports,Status,Last_clean_date
+0,Mount Gerizim,32.20142669,35.27294706,https://www.parks.org.il/reserve-park/%D7%94%D7%A8-%D7%92%D7%A8%D7%99%D7%96%D7%99%D7%9D/,1,True,
+1,Tel Be'er Sheva,31.24495425,34.84075608,https://www.parks.org.il/reserve-park/%D7%92%D7%9F-%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%AA%D7%9C-%D7%91%D7%90%D7%A8-%D7%A9%D7%91%D7%A2/,0,False,
+2,Ashkelon National Park,31.66256832,34.54630799,https://www.parks.org.il/reserve-park/%D7%92%D7%9F-%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%90%D7%A9%D7%A7%D7%9C%D7%95%D7%9F/,0,False,
+3,Castel National Park,31.79738755,35.14216638,https://www.parks.org.il/reserve-park/%D7%90%D7%AA%D7%A8-%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%94%D7%A7%D7%A1%D7%98%D7%9C/,0,False,
+4,Arbel National park and Nature Reserve,32.82457821,35.49838955,https://www.parks.org.il/reserve-park/arbel/,0,False,
+5,Hay Bar Yotvata Nature Reserve,29.84620252,35.02945934,https://www.parks.org.il/reserve-park/%D7%A9%D7%9E%D7%95%D7%A8%D7%AA-%D7%98%D7%91%D7%A2-%D7%97%D7%99-%D7%91%D7%A8-%D7%99%D7%95%D7%98%D7%91%D7%AA%D7%94-2/,0,False,
+6,Gamla Nature Reserve,32.90571603,35.74847509,https://www.parks.org.il/reserve-park/%D7%A9%D7%9E%D7%95%D7%A8%D7%AA-%D7%98%D7%91%D7%A2-%D7%92%D7%9E%D7%9C%D7%90/,0,False,
+7,Herodium Park,31.66573626,35.24171164,https://www.parks.org.il/reserve-park/%D7%A4%D7%90%D7%A8%D7%A7-%D7%92%D7%9F-%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%94%D7%A8%D7%95%D7%93%D7%99%D7%95%D7%9F/,0,False,
+8,Beit She'arim,32.69796737,35.17962545,https://www.parks.org.il/reserve-park/%D7%92%D7%9F-%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%91%D7%99%D7%AA-%D7%A9%D7%A2%D7%A8%D7%99%D7%9D/,0,False,
+9,Tel Hazor,33.01744519,35.56817237,https://www.parks.org.il/reserve-park/%D7%92%D7%9F-%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%AA%D7%9C-%D7%97%D7%A6%D7%95%D7%A8/,0,False,

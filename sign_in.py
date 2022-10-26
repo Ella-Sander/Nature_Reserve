@@ -1,47 +1,56 @@
+import Users
 from tkinter import *
 from functools import partial
-import Users
 
+def get_user_name(username, password):
+    while validateLogin(username, password) == "Login fail":
+        username = input("Enter username: ")
+        password = input("Enter password: ")
+    return username
+
+USER_NAME = ""
+PASSWORD = ""
 
 def validateLogin(username, password):
-    user = username.get()
-    password = password.get()
-    exists = user_name_taken(user)
+    user1 = username.get()
+    password1 = password.get()
+    exists = Users.user_name_taken(user1)
     if not exists:
-        add_new_user(username, password)
-        return ["Sign up success", user]
+        Users.add_new_user(user1, password1)
+        USER_NAME = user1
+        print("Sign up success")
+        Users.update_users_csv()
+        tkWindow.quit()
 
     else:
-        if check_user_and_password(user_name, password):
-            return ["Login success", user]
+        if Users.check_user_and_password(user1, password1):
+            print("Login success")
+            USER_NAME = user1
+            tkWindow.quit()
         else:
-            return ["Login fail"]
+            print("Login fail")
+            return "Login fail"
 
 
-# window
+
+#window
 tkWindow = Tk()
 tkWindow.geometry('400x150')
 tkWindow.title('Tkinter Login Form - pythonexamples.org')
 
-# username label and text entry box
+#username label and text entry box
 usernameLabel = Label(tkWindow, text="User Name").grid(row=0, column=0)
 username = StringVar()
 usernameEntry = Entry(tkWindow, textvariable=username).grid(row=0, column=1)
 
-# password label and password entry box
-passwordLabel = Label(tkWindow, text="Password").grid(row=1, column=0)
+#password label and password entry box
+passwordLabel = Label(tkWindow,text="Password").grid(row=1, column=0)
 password = StringVar()
 passwordEntry = Entry(tkWindow, textvariable=password, show='*').grid(row=1, column=1)
 
-# points
-# pointsLabel = Label(tkWindow, text="Points").grid(row=2, column=0)
-# points = StringVar()
-# pointsEntry = Entry(tkWindow, textvariable=points).grid(row=2, column=1)
-
 validateLogin = partial(validateLogin, username, password)
 
-# login button
+#login button
 loginButton = Button(tkWindow, text="Login", command=validateLogin).grid(row=4, column=0)
 
-if len(validateLogin(username, password)) == 1:
-    tkWindow.mainloop()
+tkWindow.mainloop()

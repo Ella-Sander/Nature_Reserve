@@ -28,3 +28,5 @@ def run_map():
 
     filename = 'file:///' + os.getcwd() + '/' + 'index.html'
     webbrowser.open_new_tab(filename)
+
+run_map()
