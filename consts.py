@@ -6,3 +6,8 @@ NATURE_RESERVES_FILE = r"Nature_reserves.csv"
 MAX_REPORTS = 1
 
 
+
+
+print("")
+GEFEN = "hi!"
+

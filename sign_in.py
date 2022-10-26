@@ -2,6 +2,7 @@ import Users
 from tkinter import *
 from functools import partial
 
+
 def get_user_name(username, password):
     while validateLogin(username, password) == "Login fail":
         username = input("Enter username: ")
@@ -31,6 +32,14 @@ def validateLogin(username, password):
             print("Login fail")
             return "Login fail"
 
+
+
+
+
+def validateLogin(username, password):
+	print("username entered :", username.get())
+	print("password entered :", password.get())
+	return
 
 
 #window
