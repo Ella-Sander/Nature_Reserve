@@ -6,8 +6,10 @@ NATURE_RESERVES_FILE = r"Nature_reserves.csv"
 MAX_REPORTS = 1
 
 
-
-
-print("")
-GEFEN = "hi!"
+COLOR_BLACK = (0,0,0)
+COLOR_WHITE = (255,255,255)
+ZOOM_MAP = 8
+TEXT_SIZE = 18
+REC_SIZE = (320, 240)
+WINDOW_SIZE = (1280, 720)
 
