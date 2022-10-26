@@ -28,7 +28,8 @@ def is_time_out(place_name):
     now = datetime.datetime.now()
     for index, location_info in Nature_reserves.iterrows():
         if location_info["Name"] == place_name and location_info["Last_clean_date"] != n.nan:
-            if now - location_info["Last_clean_date"] >= consts.CLEAN_FREQUENCY:
+            print(location_info["Last_clean_date"])
+            if now - pd.to_datetime(location_info["Last_clean_date"]) >= consts.CLEAN_FREQUENCY:
                 return True
             else:
                 return False
@@ -86,4 +87,4 @@ def main():
     map.run_map()
 
 
-#main()
+main()
