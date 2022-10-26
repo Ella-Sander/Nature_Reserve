@@ -5,7 +5,6 @@ import sys
 # pygame.init() will initialize all
 # imported module
 
-black = (0, 0, 0)
 pygame.init()
 
 clock = pygame.time.Clock()
@@ -72,7 +71,7 @@ while True:
                 user_text += event.unicode
 
     # it will set background color of screen
-    screen.fill((255, 255, 255))
+    screen.fill(consts.COLOR_WHITE)
 
     if active:
         color = color_active
@@ -83,7 +82,7 @@ while True:
     # be on screen
     pygame.draw.rect(screen, color, input_rect)
 
-    text_surface = base_font.render(user_text, True, (255, 255, 255))
+    text_surface = base_font.render(user_text, True, consts.COLOR_WHITE)
 
     # render at position stated in arguments
     screen.blit(text_surface, (input_rect.x + 5, input_rect.y + 5))
